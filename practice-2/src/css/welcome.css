@@ -1,0 +1,40 @@
+.companyName{
+    color: rgb(248, 12, 12);
+}
+.slogan{
+    font-size: xx-large;}
+
+.importantMsg{
+    color: red;
+}
+.offerClosed{
+    color: green;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.card{
+    /* width: 800px; */
+    height: 450px;
+    /* border: 5px solid red; */
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    max-width: 300px;
+}
+
+.cardTitle{
+    color: blue;
+}
+#image{
+    /* width: 60%; */
+    max-width: 60%;
+    border-radius: 60%;
+}
