@@ -2,8 +2,10 @@ import Footer from "./baseComponents/Footer";
 import Header from "./baseComponents/Header";
 import Welcome from "./baseComponents/Welcome";
 import Card from "./baseComponents/Card";
+import Button from "./Buttons/Button";
 
 import './css/welcome.css'
+import Styles from "./css/StylesForComponents/Styles";
 
 
 function App(){
@@ -12,7 +14,9 @@ function App(){
     {/* <Header />
     <Welcome />
     <Footer /> */}
-    <Card />
+    {/* <Card /> */}
+    {/* <Button /> */}
+    <Styles />
     </>
   );
 }
