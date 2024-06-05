@@ -1,0 +1,30 @@
+body{
+    background-color: antiquewhite;
+}
+
+.color-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.color-display{
+    width: 200px;
+    height: 200px;
+    /* border: 2px solid rgb(252, 252, 252); */
+    border-radius: 8px;
+}
+
+.color-input{
+    display: flex;
+    flex-direction: column;
+}
+input[type=number]{
+    width: 200px;
+    height: 25px;
+}
+.color-display{
+    width: 200px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.99) 10px 22px 70px 4px;
+}

@@ -1,0 +1,51 @@
+body{
+    background-color: bisque;
+}
+/* RegForm.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gender, .checkbox, .select, .textarea {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.gender label, .checkbox label, .select label, .textarea label {
+    margin-right: 10px;
+}
+
+input[type="text"], input[type="number"], select, textarea {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-left: 10px;
+}
+
