@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Rubik" ,sans-serif;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blanchedalmond;
+ 
+}
+.bmi-calculator{
+  background-color: darkgrey;
+  width : 750px;
+  height: 500px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px black;
+  display: flex;
+  background-color: black;
+  background: rgb(78,131,222);
+  background: linear-gradient(216deg, rgba(78,131,222,1) 45%, rgba(126,34,195,1) 69%);
+}
+
+.image-box{
+  width: 350px;
+  height: 500px;
+  /* background-color: aqua; */
+  background-image: url('assets/bmii.png');
+  background-size: cover;   /* which is used to fill the div */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+
+}
+.data{
+  flex: 1;
+  padding: 15px;
+}
+.data h1{
+  color: orangered;
+  font-size: 36px;
+  font-weight: 500;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.input-container{
+  margin-bottom: 10px;
+}
+label{
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.24rem;
+}
+
+input{
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: 2px solid rgb(241, 132, 93);
+  border-radius: 5px;
+  font-size: 16px;
+}
+input::placeholder{
+  font-size: 1rem;
+}
+.button-div{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2em;
+
+}
+button{
+  border: none;
+  padding: 13px 10px;
+  margin-left: 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+ 
+}
+#clear{
+  background-color: rgb(255, 166, 1, 0.9);
+  transition: ease 0.3s;
+  padding: 0px 30px;
+}
+#clear:hover{
+  background-color: rgb(255, 166, 1, 1);
+}
+#calculate{
+  background-color: rgb(101, 101, 243, 0.8);
+}
+#calculate:hover{
+  background-color: rgb(101, 101, 243, 1);
+
+}
+.result{
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.3rem;
+  border: 1px solid;
+  padding: 7px;
+}
+.result p{
+  padding: 4px;
+}
+.result p:first-child{
+  font-weight: bold;
+  color: orangered;
+}
+.error{
+  color: red;
+}

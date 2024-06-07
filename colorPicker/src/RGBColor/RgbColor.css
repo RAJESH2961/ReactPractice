@@ -1,30 +1,58 @@
-body{
-    background-color: antiquewhite;
+body {
+    background-color: hsl(34, 78%, 91%);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.color-container{
+.color-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.color-display{
-    width: 200px;
-    height: 200px;
-    /* border: 2px solid rgb(252, 252, 252); */
-    border-radius: 8px;
+    padding: 20px;
+    border: 2px solid #767575;
+    border-radius: 10px;
+    background-color: hsl(34, 78%, 91%);
+    box-shadow: 10 14px 8px rgba(0, 0, 0, 1);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
-.color-input{
-    display: flex;
-    flex-direction: column;
-}
-input[type=number]{
-    width: 200px;
-    height: 25px;
-}
-.color-display{
+.color-display {
     width: 200px;
     height: 200px;
+    border-radius: 8px;
+    margin-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.99) 10px 22px 70px 4px;
+}
+
+.color-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type=text], input[type=number] {
+    width: 200px;
+    height: 35px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type=text]:focus, input[type=number]:focus {
+    border-color: #007BFF;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+    outline: none;
+}
+
+input[type=text]::placeholder, input[type=number]::placeholder {
+    color: #aaa;
+    font-style: italic;
 }
