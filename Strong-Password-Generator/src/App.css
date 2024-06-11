@@ -1,0 +1,91 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.passwordGenerator{
+  width: 500px;
+  height: 330px;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  box-shadow:2px 2px 5px #000000;
+  border-radius: 5px;
+  padding: 10px;
+}
+h2{
+  text-align: center;
+  color: orangered;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+.input-group{
+  width: 100%;
+  font-size: larger;  
+  font-weight: 500;
+}
+.input-group>input{
+  border: 0px;
+  height: 30px;
+  /* width: 100%; */
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  border: 1px #cccc;
+  border-radius: 5px;
+  outline: none;
+}
+.checkbox-group{
+  font-size: medium;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.checkbox-group>input{
+  margin-right: 10px;
+}
+.generate-button{
+  height: 35px;
+  background-color: rgb(243, 94, 40);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+.generate-button:hover{
+  background-color: orangered;
+  cursor: pointer;
+}
+.generated-password{
+  margin-top: 10px;
+  display: flex;
+  overflow: hidden;
+  border-radius: 5px;
+
+}
+input[type="text"]{
+  border: none;
+  flex: 1;
+  padding: 10px;
+  outline: none;
+  cursor: wait;
+}
+.copy-button{
+  border: none;
+  padding: 10px;
+  color: white;
+  background-color: green;
+  cursor: pointer;
+}
